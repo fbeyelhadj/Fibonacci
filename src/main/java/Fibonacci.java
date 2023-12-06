@@ -29,8 +29,10 @@ public class Fibonacci {
           @param n integer to be processed
          * @return The result of the calculation
          */
-        if (n <= 1) {
-            return 1;
+        if (n <= 0) {
+            return 0;
+        }else if (n==1){
+                return 1;
         } else {
             return fibonacciRecursion(n - 1) + fibonacciRecursion(n - 2);
         }
