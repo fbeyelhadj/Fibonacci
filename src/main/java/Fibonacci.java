@@ -19,7 +19,7 @@ public class Fibonacci {
           @param args Process the command line arguments
          */
         System.out.println("The nth term of the fibonacci sequence  is: " + fibonacciRecursion(10));
-        System.out.println("Thank you ! ");
+        System.out.println("Thank you for visiting ! ");
     }
 
     public static int fibonacciRecursion(int n) {
